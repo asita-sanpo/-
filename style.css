@@ -1,0 +1,118 @@
+@charset "utf-8";
+
+/* common */
+
+h1{
+  margin: 0;
+color:rgb(65, 26, 16);
+}
+
+p{
+  margin: 0;
+  color:rgb(65, 26, 16);
+
+}
+
+h2{
+  margin: 0 8px;
+  font-size: 30px;
+  color: rgb(223, 86, 86);
+}
+
+h3{
+  color:rgb(65, 26, 16);
+}
+
+img{
+  vertical-align: bottom;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  opacity: 0.8;
+}
+
+/* header */
+
+.title{
+display: flex;
+gap: 16px;
+}
+
+header{
+margin: 0 0 16px 0;
+padding: 16px 64px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+border-bottom: rgb(223, 86, 86) 3px solid;
+}
+
+.tel{
+  display: flex;
+  align-items: center;
+}
+
+/* nav */
+
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+li{
+  margin: 0;
+  /* border-left: solid lightgray 1px; */
+  /* padding: 0 0 0 24px; */
+  color:rgb(65, 26, 16);
+
+}
+
+ul a{
+  border-left: solid lightgray 1px;
+  padding: 0 0 0 24px;
+
+}
+
+ul a:first-child{
+  border-left: none;
+}
+
+.gaikan{
+  border-top: rgb(223, 86, 86) 3px solid;
+  border-bottom: rgb(223, 86, 86) 3px solid;
+ margin: 16px 0 0 0;
+ text-align: center;
+ height: 500px;
+}
+
+.gaikan img{
+  width:80%;
+  height: 500px;
+  object-fit: cover;
+  object-position: 50% 0;
+}
+
+
+/* menuの装飾 */
+
+menu{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 80px;
+  margin: 40px 0;
+}
+
+menu img{
+  padding: 16px;
+  border: solid rgb(223, 86, 86) 3px;
+  border-radius: 8px;
+}
